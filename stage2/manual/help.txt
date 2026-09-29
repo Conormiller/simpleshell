@@ -1,0 +1,26 @@
+Simpleshell User Manual
+cd - cd changes the current directory. If an argument isn't present then it will display the current directory. Example: 'cd ChildDirectory/' will change your current working directory to ChildDirectory.
+
+clr - clr will clear the screen.
+
+dir - dir lists all the contents of a directory, you can also pass through a another directory in the argument to display everything in the given directory. Example: 'dir ChildDirectory' will list everything inside the ChildDirectory directory.
+
+environ - environ lists all of the environ strings.
+
+echo - echo will display everything that was passed after 'echo' on one line, followed by a new line character.
+
+pause - pause will pause the operation of the shell until 'Enter' is pressed.
+
+quit - Exits the shell.
+
+External Commands - Simpleshell also supports standard UNIX commands. Example: ls, pwd, cat.
+
+I/O Redirection - Simpleshell support imput and output redirection
+	< Redirects standard input from a file. Example: sort < input.txt
+	> Redirects standard output in to a file. Example: ls > output.txt (this will overwrite the file)
+	>> Redirects standard output in to a file. echo hello >> output.txt (this appends hello the the file)
+
+	Redirection can be used for both the external and internal commands. Example: dir > files.txt
+
+Background Execution - Adding the ampersand (&) at the end of a command will execute the command in the background.
+

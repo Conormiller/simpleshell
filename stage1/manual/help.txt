@@ -1,0 +1,8 @@
+cd      - cd changes the current directory. If an argument isn't present then it will display your current directory. Example: 'cd ChildDirectory/' will change your current working directory to ChildDirectory. 
+clr     - clr will clear the screen.
+dir     - dir lists all the contents of a directory, you can also pass through a another directory in the argument to display everything in the given directory. Example: 'dir ChildDirectory' will list everything inside the ChildDirectory directory.
+environ - environ lists all of the environ strings.
+echo    - echo will display everything that was pass everything after 'echo' on one line, followed by a new line character.
+pause   - paure will pause the operation of the shell until 'Enter' is pressed.
+quit    - Exits the shell.
+
